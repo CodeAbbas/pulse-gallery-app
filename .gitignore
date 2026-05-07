@@ -1,0 +1,19 @@
+terraform/.terraform/
+.next/
+node_modules/
+.env*
+
+*.tfstate
+*.tfstate.backup
+*.tfstate.*.backup
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+terraform.tfstate.backup
+
+terraform/*.tfstate*
+*.tfstate*
+.env*
+node_modules/
+.next/
