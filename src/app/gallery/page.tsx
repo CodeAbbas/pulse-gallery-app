@@ -155,7 +155,7 @@ export default function GalleryPage() {
                 
                 <button
                   onClick={() => handleDelete(media.id, media.fileName)}
-                  className="mt-2 flex-grow-1 cursor-pointer rounded-md bg-red-600 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-red-800 active:scale-95"
+                  className="btn btn-danger mt-2 flex-grow-1"
                 >
                   Delete
                 </button>
